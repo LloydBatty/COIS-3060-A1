@@ -8,26 +8,26 @@
 
 ## Functional Requirements:
 -	simple web page
+-	Simple tabs or buttons to switch sections
+-	Simple table or list format
 -	four main sections:
-o	Data Sources
+#### o	Data Sources
   - Source name
   - What kind of data it provides
   - Brief description
-o	Collection Methods
+#### o	Collection Methods
   - Method name
   - What it’s used for
   -	Pros and cons
-o	Analysis Methods
+#### o	Analysis Methods
   -	Method name
   -	Type of analysis
   -	Common use cases
-o	Publication Venues
+#### o	Publication Venues
   -	Venue name and abbreviation
   -	Type (conference or journal)
   -	Focus area
   -	How relevant to MSR (high, medium)
--	Simple tabs or buttons to switch sections
--	Simple table or list format
 
 ## Non-Functional Requirement: 
 -	Not-over whelming to use
