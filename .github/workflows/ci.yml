@@ -12,7 +12,7 @@ jobs:
 
       - name: Test navigation links
         run: |
-          grep -q "href="data-sources.html"" src/index.html
-          grep -q "href="collection-methods.html"" src/index.html
-          grep -q "href="analysis-methods.html"" src/index.html
-          grep -q "href="publication-venues.html"" src/index.html
+          grep -q 'href="data-sources.html"' src/index.html
+          grep -q 'href="collection-methods.html"' src/index.html
+          grep -q 'href="analysis-methods.html"' src/index.html
+          grep -q 'href="publication-venues.html"' src/index.html
