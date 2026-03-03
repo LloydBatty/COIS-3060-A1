@@ -16,3 +16,11 @@ jobs:
           grep -q 'href="collection-methods.html"' src/index.html
           grep -q 'href="analysis-methods.html"' src/index.html
           grep -q 'href="publication-venues.html"' src/index.html
+
+      - name: Test headers
+        run: |
+          grep -q 'Mining Software Repositories Reference Website!' src/index.html
+          grep -q 'Data Sources!' src/data-sources.html
+          grep -q 'Collection Methods!' src/collection-methods.html
+          grep -q 'Analysis Methods!' src/analysis-methods.html
+          grep -q 'Publication Venues!' src/publication-venues.html
