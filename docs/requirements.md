@@ -6,6 +6,9 @@
 4) As an analyst, I want to reference many types of analysis, so I can best analyze the data I’m working with.
 5) As a researcher, I want to see all publication venues, so I can decide through which to most effectively publish my research.
 
+
+
+
 ## Functional Requirements:
 -	simple web page
 -	Simple tabs or buttons to switch sections
@@ -30,7 +33,7 @@
   -	How relevant to MSR (high, medium)
 
 ## Non-Functional Requirement: 
--	Not-over whelming to use
+-	Must not be over-whelming to use
 -	Clean and readable
 -	Professional looking
 
