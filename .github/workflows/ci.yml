@@ -31,3 +31,14 @@ jobs:
           grep -q 'href="index.html"' src/collection-methods.html
           grep -q 'href="index.html"' src/analysis-methods.html
           grep -q 'href="index.html"' src/publication-venues.html
+
+      - name: Test text
+        run: |
+          grep -q 'Here we have many links to useful resources to help MSR researchers!' src/index.html
+          grep -q 'Below is a table of useful Data Sources!' src/data-sources.html
+          grep -q 'Below is a table of MSR Collection Methods!' src/collection-methods.html
+          grep -q 'Below is a table of many MSR Analysis Methods!' src/analysis-methods.html
+          grep -q 'Below is a description and table of many MSR Publication Venues!' src/publication-venues.html
+          grep -q 'href="index.html"' src/collection-methods.html
+          grep -q 'href="index.html"' src/analysis-methods.html
+          grep -q 'href="index.html"' src/publication-venues.html
