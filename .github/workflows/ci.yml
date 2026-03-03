@@ -40,5 +40,13 @@ jobs:
           grep -q 'Below is a table of many MSR Analysis Methods!' src/analysis-methods.html
           grep -q 'Below is a description and table of many MSR Publication Venues!' src/publication-venues.html
           grep -q 'href="index.html"' src/collection-methods.html
+
+      - name: Test files exist
+        run: | 
+          test -f src/index.html
+          test -f src/data-sources.html
+          test -f src/collection-methods.html
+          test -f src/analysis-methods.html 
+          test -f src/publication-venues.html
           grep -q 'href="index.html"' src/analysis-methods.html
           grep -q 'href="index.html"' src/publication-venues.html
