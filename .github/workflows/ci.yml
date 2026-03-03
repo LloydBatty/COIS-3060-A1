@@ -24,3 +24,10 @@ jobs:
           grep -q 'Collection Methods!' src/collection-methods.html
           grep -q 'Analysis Methods!' src/analysis-methods.html
           grep -q 'Publication Venues!' src/publication-venues.html
+
+      - name: Test homepage links
+        run: |
+          grep -q 'href="index.html"' src/data-sources.html
+          grep -q 'href="index.html"' src/collection-methods.html
+          grep -q 'href="index.html"' src/analysis-methods.html
+          grep -q 'href="index.html"' src/publication-venues.html
