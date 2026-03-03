@@ -2,6 +2,9 @@
 #### Trent COIS-3060 Assignment 1
 #### Applying Software Process
 
+## GitHub Actions Workflow Status Badge
+[![Run Tests](https://github.com/LloydBatty/COIS-3060-A1/actions/workflows/ci.yml/badge.svg)](https://github.com/LloydBatty/COIS-3060-A1/actions/workflows/ci.yml)
+
 ## Project Description
 This project is for reference website for Mining Software Repositories (MSR) researchers.  \
 It consists of a main index.html page.  This is the homepage explaining the website.  This homepage has four (4) main links to guide researchers. \
